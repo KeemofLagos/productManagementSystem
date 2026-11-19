@@ -16,5 +16,5 @@ app.get("/product/:productsid", findOneProduct)
 app.post ("/newproduct", addProduct)
 
 app.listen (PORT, () => {
-console.log (`My app is running on port ${PORT}`)
+console.log (`Server is actively running on port ${PORT}`)
 }) 
